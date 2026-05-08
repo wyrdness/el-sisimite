@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/el-sisimite",
     "maintainers": [
       {
@@ -16,72 +16,126 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "el-sisimite",
-    "name": "El Sisimite: The Central American Forest Giant",
-    "aliases": [],
-    "category": "FOR_MULTIPLE_DIFFERENT_PHENOMENA—SOME_GENUINE_UNKNOWN_ANIMALS,_SOME_MISIDENTIFICATIONS,_SOME_PURE_FOLKLORE,_SOME_HOAXES—ALL_LABELED_TOGETHER.",
-    "subcategory": "appearing in many societies. The Sisimite represents the Central American expression of this universal mythic figure, embodying the boundary between culture and nature.",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Sisimite",
+    "aliases": [
+      { "name": "El Sisimite", "language": "Spanish", "region": "Central America", "meaning": "The Sisimite" },
+      { "name": "Sisimito", "language": "Spanish", "region": "Belize and Honduras" },
+      { "name": "Sisimita", "language": "Spanish", "region": "Guatemala" },
+      { "name": "Súkara", "region": "Central America" },
+      { "name": "Itacayo", "region": "Central America" },
+      { "name": "Sismidu", "language": "Garifuna", "region": "Belize and Honduras" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Humanoid cryptid / hairy forest giant",
+    "tags": [
+      "cryptid",
+      "humanoid",
+      "central-america",
+      "belize",
+      "honduras",
+      "guatemala",
+      "bigfoot-type",
+      "forest-creature",
+      "indigenous-folklore"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Sisimite tradition represents a fascinating convergence of Indigenous mythology, colonial-era folklore, and modern cryptozoology.",
-      "full": "The Sisimite tradition represents a fascinating convergence of Indigenous mythology, colonial-era folklore, and modern cryptozoology. While some researchers see potential connections to unknown primate species, the Sisimite is deeply embedded in local cultural narratives about wildness, civilization boundaries, and the dangers of the untamed forest. The creature serves multiple functions: as a cautionary figure warning against forest dangers, as an explanation for unexplained disappearances, and as a symbol of the wild spaces that resist human domestication."
+      "summary": "The Sisimite is a large, bipedal, ape-like humanoid from Central American folklore — particularly Belize and Honduras — described as covered in black or dark brown fur with four-fingered hands and backward-facing feet, known for its ferocity and alleged abduction of humans.",
+      "full": "The Sisimite (also Sisimito, Sisimita) is a bipedal humanoid cryptid from the folklore of Belize, Honduras, Guatemala, and neighboring Central American countries. It is described as a gorilla-like creature with a humanoid head, covered in black or dark brown fur, standing larger than an average human, with ape-like facial features, four fingers on each hand (no thumbs), and notably backward-facing feet with no knees. The name is believed to derive from the Nahuatl word Tzitzimitl. In Honduran tradition, the Sisimite inhabits mountain caverns and consumes wild berries, but is particularly feared for allegedly kidnapping human women. In Belizean tradition, the creature is more malevolent — said to consume human flesh, tear bodies apart, and hunt on Sundays and religious holidays. Across traditions, the Sisimite fears water and dogs, which are used to ward it off. The Garifuna people call it Sismidu. The creature may assume human form to lure victims from villages. The Sisimite represents the Central American expression of a widespread mythic figure — the wild hairy forest giant — that appears across many world cultures."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Believed to derive from the Nahuatl word Tzitzimitl",
+      "meaning": "No direct English translation; the Nahuatl root Tzitzimitl refers to skeletal supernatural beings in Aztec mythology",
+      "first_use": "Pre-colonial oral tradition of Central American Indigenous peoples"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "FOR_MULTIPLE_DIFFERENT_PHENOMENA—SOME_GENUINE_UNKNOWN_ANIMALS,_SOME_MISIDENTIFICATIONS,_SOME_PURE_FOLKLORE,_SOME_HOAXES—ALL_LABELED_TOGETHER.",
-      "type": "appearing in many societies. The Sisimite represents the Central American expression of this universal mythic figure, embodying the boundary between culture and nature.",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "CRYPTID",
+      "type": "Humanoid cryptid",
+      "subtype": "Hairy bipedal forest giant",
+      "variant": "Central American"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "bigfoot", "name": "Bigfoot", "relationship": "similar", "description": "North American hairy bipedal humanoid cryptid; shares the broad type of large hairy forest giant" },
+      { "id": "yeti", "name": "Yeti", "relationship": "similar", "description": "Himalayan hairy humanoid cryptid of the same broad type" },
+      { "id": "alux", "name": "Alux", "relationship": "related", "description": "Maya supernatural being of Mesoamerica" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Dark fur covering body", "description": "Black or dark brown fur covering the entire body", "frequency": "always" },
+        { "feature": "Humanoid head", "description": "Head described as similar to a human's, with ape-like facial features", "frequency": "always" },
+        { "feature": "Four-fingered hands", "description": "Four fingers per hand with no thumbs", "frequency": "always" },
+        { "feature": "Backward-facing feet", "description": "Feet point backward relative to the direction of travel; no knees described in some traditions", "frequency": "always" },
+        { "feature": "Large stature", "description": "Stands larger than an average human", "frequency": "always" },
+        { "feature": "Bipedal locomotion", "description": "Walks upright on two legs", "frequency": "always" }
+      ],
+      "morphology": "A bipedal, gorilla-like humanoid larger than an average person, with the distinctive feature of backward-facing feet — a common motif in Central and South American forest creature traditions (shared with the Brazilian Curupira). The four-fingered thumbless hands distinguish it from human anatomy."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Human abduction", "description": "Said to kidnap human women in Honduran tradition; in Belizean tradition kidnaps and consumes humans", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Shapeshifting", "description": "May assume human form to lure victims from villages", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Thumb removal", "description": "In some Belizean accounts, severs the thumbs of prey", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["tropical rainforest", "mountain caverns", "jungle-covered highlands of Central America"],
+      "diet": "Wild berries (Honduran tradition); human flesh (Belizean tradition)",
+      "patterns": [
+        "Fears water and dogs; can be warded off by both",
+        "Particularly active on Sundays and religious holidays in Belizean tradition",
+        "Inhabits mountain caverns in Honduran tradition",
+        "May lure victims by assuming human form"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Found in the folklore of Belize, Honduras, Guatemala, and Nicaragua. Related reports extend into southern Mexico (Campeche, Chiapas, Quintana Roo) and reportedly as far south as Colombia, where it is called the 'Darien Monster.'",
+      "continents": ["North America", "South America"],
+      "countries": ["Belize", "Honduras", "Guatemala", "Nicaragua", "Mexico", "Colombia"],
+      "regions": [
+        "Toledo District, Belize",
+        "Mountain regions of Honduras",
+        "Guatemalan highlands",
+        "Campeche, Mexico",
+        "Chiapas, Mexico",
+        "Quintana Roo, Mexico",
+        "Darien, Colombia"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Indigenous oral traditions of Central America predating Spanish colonization"
+      },
+      "peak_activity_periods": [],
+      "seasonal_patterns": "In Belizean tradition, the Sisimite is particularly active on Sundays and religious holidays."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Sisimite tradition originates in pre-colonial Indigenous mythology of Central America, likely rooted in Nahuatl-speaking cultures given the etymology from Tzitzimitl. It represents the local expression of a widespread mythic type — the dangerous wild forest giant — found across many world cultures.",
+      "earliest_accounts": "Pre-colonial oral tradition; recorded in Spanish-era colonial accounts of Central American Indigenous beliefs.",
+      "folklore_connections": "The backward-facing feet are a common motif shared with the South American Curupira. The general type of large hairy humanoid forest creature appears globally (Bigfoot, Yeti, etc.). Historian Jesús Aguilar Paz documented Honduran accounts of the Sisimite in mountain caverns."
     },
-    "timeline": []
+    "timeline": [],
+    "modern_era": "The Sisimite remains a living figure in the folklore of Belize and Honduras. Henry Anderson's 'Sisimito' adventure novel series set in Belize brought the creature to wider English-language readership. The Sisimite was featured in the 1951 film Bride of the Gorilla and referenced in the 2018 video game Shadow of the Tomb Raider."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +146,80 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Unknown primate",
+        "description": "Some cryptozoologists suggest the Sisimite reports may reflect a real but undescribed primate or hominid inhabiting the dense Central American rainforests.",
+        "proponents": ["Cryptozoologists who draw parallels to Bigfoot"],
+        "evidence_cited": ["Consistent physical description across wide geographic area", "Dense, under-explored rainforest habitat"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural encoding of forest dangers",
+        "description": "The Sisimite tradition encodes real dangers of the forest — wild animals, getting lost, stranger abduction — in a supernatural figure, serving as a cautionary tale particularly for women and children.",
+        "proponents": ["Folklore scholars", "Ethnobiologists"],
+        "evidence_cited": ["No physical specimen or carcass ever recovered", "Legend serves clear social functions as a deterrent", "Backward-feet motif is a common literary device in forest-guardian traditions worldwide"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Belizean oral tradition (particularly Toledo District)",
+        "Honduran mountain folklore",
+        "Guatemalan highland tradition",
+        "Garifuna tradition (Sismidu)"
+      ],
+      "stories": [
+        "A Sisimite kidnaps a woman from a village, carrying her to its cave in the mountains",
+        "Hunters who encounter the Sisimite are paralyzed with fear; it fears only dogs and water",
+        "The creature hunts on Sundays and holy days, making those days dangerous for forest travel"
+      ],
+      "beliefs": "Across Central American traditions, the Sisimite functions as a cautionary figure warning people — especially women and children — against entering the deep forest. The fear of dogs and water gives communities a sense of potential protection."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
+      "literature": [
+        "Sisimito adventure novel series by Henry Anderson — set in Belize"
+      ],
+      "film_tv": [
+        "Bride of the Gorilla (1951) — features a creature based on Sisimite traditions"
+      ],
+      "games": [
+        "Shadow of the Tomb Raider (2018) — references the Sisimite"
+      ],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Jesús Aguilar Paz", "affiliation": "Honduran historian", "contribution": "Documented Honduran accounts of the Sisimite inhabiting mountain caverns and consuming wild berries", "period": "20th century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No systematic academic investigation documented."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-sisimito",
+      "type": "website",
+      "title": "Sisimito — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sisimito",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
